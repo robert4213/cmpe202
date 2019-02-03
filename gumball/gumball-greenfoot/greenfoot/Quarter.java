@@ -1,10 +1,10 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Quarter here.
+ * This class defines the quarter coins
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @ Shiyan Cai 
+ * @ 2/1/2019
  */
 public class Quarter extends Coin
 {
@@ -14,5 +14,6 @@ public class Quarter extends Coin
         GreenfootImage image = getImage() ;
         image.scale( 80, 80 ) ;           
     }
-  
+    
+    
 }

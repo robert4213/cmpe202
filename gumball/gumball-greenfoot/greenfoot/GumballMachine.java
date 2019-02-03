@@ -17,6 +17,14 @@ public class GumballMachine extends Actor
 
     public void act() 
     {
-        // Add your action code here.
+        Actor qCoin;
+        qCoin = getOneObjectAtOffset(0,0,Quarter.class);
+        if (qCoin != null)
+        {
+            World world;
+            world = getWorld();
+            world.removeObject(qCoin);
+            System.out.print("Get Coin");
+        }
     }    
 }
