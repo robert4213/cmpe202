@@ -35,6 +35,7 @@ Collborator: Table2,Customer
 # Design pattern
 Chain of responsibility
 Explaination: In this project, we have several table objects which has different aviliable seats. So in my program, when customer object comes, it'll first check table with 2 seats, if it's not suitable, then send customer object to next table, table4. Sane for table4 to table8.
+
 Contain odject: 
 
 Client: customers object in customerList. Served with FIFO order.
