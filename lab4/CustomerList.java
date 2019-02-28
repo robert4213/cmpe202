@@ -3,13 +3,11 @@ import java.util.Scanner;
 
 public class CustomerList {
 	private LinkedList<Customer> list;
-	int[] num2 = {21, 22, 23, 24, 25, 26, 27, 28, 29};
-	int[] num4 = {41,42,43,44,45};
-	int[] num8 = {81,82};
+
 	Handler t2; 
-	public CustomerList()
+	public CustomerList(Handler t2)
 	{		
-		t2 = new Table2(num2);
+		this.t2 = t2;
 	}
 	
 	public void add(Customer c)
