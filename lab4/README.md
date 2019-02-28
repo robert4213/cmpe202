@@ -38,6 +38,6 @@ Explaination: In this project, we have several table objects which has different
 
 Contain odject: 
 
-Client: customers object in customerList. Served with FIFO order.
+Client: customer objects in customerList. Served with FIFO order.
 
 ConcreteHandler: table2, table4, table8
