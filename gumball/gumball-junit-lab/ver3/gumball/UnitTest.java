@@ -53,6 +53,8 @@ public class UnitTest
     {
         try {            
             m.insertQuarter();
+            m.insertQuarter();
+            System.out.println("Insert");
             m.turnCrank();
             assertEquals(true, m.hasGumball());
         }

@@ -9,5 +9,7 @@ package gumball;
  */
 public class NoQuarterException extends GumballException
 {
-
+    public NoQuarterException(){
+        System.out.println("No quarter.");
+    }
 }
