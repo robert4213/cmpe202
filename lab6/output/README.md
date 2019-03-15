@@ -2,7 +2,7 @@
 
 # Design pattern used:
 
-Stragetary pattern: select which print format to be used.
+Stragety pattern: select which print format to be used.
 
 Composite pattern: make toppings and meat become a burger composite.
 
