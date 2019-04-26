@@ -1,7 +1,7 @@
 # Lab 10
 
 ## Comparison
-Compare with Lab1, using aspectJ makes code easy to alter with different stragety. Make codes more flexible.
+Compare with Lab1, using aspectJ makes code easy to alter. Make codes more flexible. In Lab1, we need to code to deal with different machine type. Use AspectJ, It becomes much easier.
 
 ## output
 Crank with 25
